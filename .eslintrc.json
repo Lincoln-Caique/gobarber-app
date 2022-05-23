@@ -25,6 +25,8 @@
     "prettier"
   ],
   "rules": {
+    "no-unused-expressions": "off",
+    "no-console": "off",
     "prettier/prettier": [
       "error",
       {
@@ -32,7 +34,8 @@
         "parser": "flow",
         "semi": true,
         "allowParens": "avoid",
-        "trailingComma": "es5"
+        "trailingComma": "es5",
+        "endOfLine":"auto"
       }
     ],
     "react-hooks/rules-of-hooks": "error",
